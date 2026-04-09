@@ -7,13 +7,14 @@
   /* Backgrounds */
   --color-background: #ffffff;
   --color-yellow-bg: #fbd26af2;
+  --color-testimonial-bg:#fff1e0;
   --color-first-bg: #fff6e5;
   --color-second-bg: #e7f4fd;
   --color-third-bg: #ede4d4;
 
   /* Brand */
   --color-brand-primary: #007db8;
-
+  --color-secon-yellow:#fbd26a;
   /* Text */
   --color-text-primary: #29303d;
   --color-text-secondary: #676f7e;
@@ -26,10 +27,12 @@
 @theme inline {
   --color-background: var(--color-background);
   --color-yellow-bg: var(--color-yellow-bg);
+   --color-testimonial-bg:var( --color-testimonial-bg);
   --color-first-bg: var(--color-first-bg);
   --color-second-bg: var(--color-second-bg);
   --color-third-bg: var(--color-third-bg);
 
+  --color-secon-yellow:var( --color-secon-yellow);
   --color-brand-primary: var(--color-brand-primary);
   --color-text-primary: var(--color-text-primary);
   --color-text-secondary: var(--color-text-secondary);
@@ -61,6 +64,14 @@
    Base Styles
 ================================ */
 /* globals.css */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 html,
 body {
   -webkit-tap-highlight-color: transparent;
