@@ -14,13 +14,13 @@ export default function Header() {
     <header className="w-full bg-yellow-bg sticky top-0 z-50 shadow-md">
       <Container>
         <div className="flex justify-between items-center h-16">
-          {/* <Link
+          <Link
             href="/"
             className="text-xl font-bold"
           >
-            Vishodhana Advisors LLP
-          </Link> */}
-          <Image src="/Vishodhanas.png" width={180} height={230} alt="vishodana" />
+            <Image src="/Vishodhanas.png" width={180} height={230} alt="vishodana" />
+          </Link>
+          
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex flex-1 justify-end">
