@@ -86,7 +86,7 @@ export default function Footer() {
                 <div className="border-t border-gray-300 mt-12 pt-6 text-center space-y-2">
 
                     <Text variant="p" as="p" className="text-sm text-gray-600">
-                        © 2026 Vishodhana Advisors LLP. All rights reserved.
+                        © 2026 Vishodhana Advisors LLP. Professional Financial & Compliance Services. All rights reserved.
                     </Text>
 
                     {/* <Text variant="p" as="p" className="text-sm text-gray-500">

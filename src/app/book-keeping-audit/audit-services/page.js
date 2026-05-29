@@ -1,23 +1,23 @@
-import { FAQSection, ServiceHero, TabsSection,CTASection } from "@/components";
-import { TABSDATA } from "@/data/tabsData";
-import { FAQ_COMPANY_REGIST } from "@/data/faq"
+import { FAQSection, ServiceHero, TabsSection, CTASection } from "@/components";
+import { TABSOA } from "@/data/tabsData";
+import { FAQ_OA_REGIST } from "@/data/faq"
 export default function AuditServices() {
     return (
         <>
             <section >
                 <ServiceHero
-                    title="Audit Services"
-                    subtitle="Statutory, internal, and tax audits conducted by experienced Chartered Accountants."
+                    title="Accounts Outsourcing"
+                    subtitle="Professional accounting services for smooth business operations and compliance."
                     price="₹14,999"
                     features={[
-                        "End-to-end registration support",
-                        "DSC & DIN included",
-                        "MOA & AOA drafting",
-                        "PAN & TAN application",
+                        "Professional Bookkeeping",
+                        "GST & Tax Support",
+                        "Financial Statement Preparation",
+                        "Compliance Assistance",
                     ]}
                 />
-                <TabsSection tabs={TABSDATA} />
-                <FAQSection data={FAQ_COMPANY_REGIST} />    
+                <TabsSection tabs={TABSOA} />
+                <FAQSection data={FAQ_OA_REGIST} />
             </section>
         </>
     );
