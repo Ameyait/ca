@@ -1,6 +1,6 @@
 import FAQItem from "./FAQItem";
 import { Container, SectionHeader } from "..";
-
+ 
 export default function FAQSection({ data }) {
     return (
         <section className="w-full bg-first-bg py-20">
@@ -17,8 +17,9 @@ export default function FAQSection({ data }) {
                         />
                     ))}
                 </div>
-
+ 
             </Container>
         </section>
     );
 }
+ 

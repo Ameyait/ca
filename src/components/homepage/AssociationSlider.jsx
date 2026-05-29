@@ -1,20 +1,20 @@
 "use client";
-
+ 
 import { useEffect, useRef } from "react";
 import { Text } from "..";
 export default function AssociationSlider() {
     const scrollRef = useRef(null);
-
+ 
     const items = [
-        "Genius Tax Software",
-        "Speqta GST",
-        "Quick2Tally",
-        "Zoho Books",
+        "TallyPrime",
         "ClearTax",
-        "Tally",
-        "Busy Software",
+        "Saral GST",
+        "GSTHero",
+        "Gen GST",
+        "Zoho Books",
+        "Busy Accounting",
     ];
-
+ 
     // Auto scroll
     useEffect(() => {
         const container = scrollRef.current;
@@ -29,16 +29,16 @@ export default function AssociationSlider() {
                 scrollAmount = 0;
             }
         }, 20);
-
+ 
         return () => clearInterval(interval);
     }, []);
-
+ 
     return (
         <section className="w-full bg-second-bg py-10 overflow-hidden">
-
+ 
             {/* Heading */}
             <Text variant="h2" as="h2">
-                We Have Good Association
+                Our Trusted Business Partners
             </Text>
             <div
                 ref={scrollRef}
@@ -56,3 +56,4 @@ export default function AssociationSlider() {
         </section>
     );
 }
+ 

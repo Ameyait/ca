@@ -1,12 +1,12 @@
 import { ServiceCard, SectionHeader, Container, Text } from "..";
-
+ 
 export default function ServicesSection({ data }) {
     return (
         <section className="w-full bg-first-bg py-16">
             <Container>
                 <SectionHeader
                     title="Our Services"
-                    subtitle="Comprehensive financial and compliance solutions tailored for your business growth."
+                    subtitle="Professional tax, accounting, and compliance solutions designed to support your business operations."
                 />
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {data.map((item, i) => (
@@ -22,3 +22,4 @@ export default function ServicesSection({ data }) {
         </section>
     );
 }
+ 

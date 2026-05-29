@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       className={`${poppins.variable} h-full antialiased`}
     >
       <body className={poppins.className}>
-        <Header />
+        <Header/>
         {children}
         <CTASection
           title="Talk to a CA Expert Today"

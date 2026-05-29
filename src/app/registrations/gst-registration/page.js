@@ -1,12 +1,12 @@
 import { FAQSection, ServiceHero, TabsSection,CTASection } from "@/components";
-import { TABSDATA } from "@/data/tabsData";
-import { FAQ_COMPANY_REGIST } from "@/data/faq"
+import { GSTDATA } from "@/data/tabsData";
+import { FAQ_GST_REGISTRATION } from "@/data/faq"
 export default function GSTFiling() {
     return (
         <>
             <section >
                 <ServiceHero
-                    title="Trademark Registration – Online"
+                    title="GST Registration"
                     subtitle="Private Limited, OPC, LLP — get your business registered hassle-free."
                     price="₹6,999"
                     features={[
@@ -16,8 +16,8 @@ export default function GSTFiling() {
                         "PAN & TAN application",
                     ]}
                 />
-                <TabsSection tabs={TABSDATA} />
-                <FAQSection data={FAQ_COMPANY_REGIST} />    
+                <TabsSection tabs={GSTDATA} />
+                <FAQSection data={FAQ_GST_REGISTRATION } />    
             </section>
         </>
     );

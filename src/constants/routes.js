@@ -31,8 +31,8 @@ export const ROUTES = {
   },
 
    COMPLIANCE: {
-    PRIVATE_LIMITED: COMPLIANCE("ncome-tax-filing"),
-    INCOME_TAX: COMPLIANCE("income-tax-returns"),
+    PRIVATE_LIMITED: COMPLIANCE("private-limited-compliances"),
+    INCOME_TAX: COMPLIANCE("income-tax-filing"),
     GST_RETURN: COMPLIANCE("gst-return-filing"),
     TDS_RETURN: COMPLIANCE("tds-returns"),
     PF_ESI_PT: COMPLIANCE("pf-esi-pt-returns"),

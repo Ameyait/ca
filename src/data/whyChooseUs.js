@@ -1,28 +1,29 @@
 import { UserCheck, IndianRupee, Headphones, Zap } from "lucide-react";
-
+ 
 export const WHY_CHOOSE_US = [
   {
-    title: "Single Point of Contact",
+    title: "Trusted Service",
     description:
-      "One dedicated expert handles your entire compliance — no runaround.",
+      "Reliable accounting and compliance support tailored to your business needs.",
     icon: UserCheck,
   },
   {
-    title: "Affordable Pricing",
+    title: "Fair Pricing",
     description:
-      "Transparent, competitive pricing with no hidden costs.",
+      "Affordable professional services with clear and transparent pricing.",
     icon: IndianRupee,
   },
   {
-    title: "Expert CA Support",
+    title: "CA Expertise",
     description:
-      "Get guidance from qualified Chartered Accountants with 25+ years of experience.",
+      "Professional guidance from experienced Chartered Accountants.",
     icon: Headphones,
   },
   {
-    title: "Fast Response",
+    title: "Timely Support",
     description:
-      "Quick turnaround on filings, registrations, and queries.",
+      "Quick assistance for registrations, filings, and business compliance.",
     icon: Zap,
   },
 ];
+ 
