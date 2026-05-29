@@ -6,7 +6,7 @@ export default function ServicesSection({ data }) {
             <Container>
                 <SectionHeader
                     title="Our Services"
-                    subtitle="Comprehensive financial and compliance solutions tailored for your business growth."
+                    subtitle="Professional tax, accounting, and compliance solutions designed to support your business operations."
                 />
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {data.map((item, i) => (

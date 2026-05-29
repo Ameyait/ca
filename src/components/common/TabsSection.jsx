@@ -6,7 +6,7 @@ export default function TabsSection({ tabs = [] }) {
   const activeContent = tabs.find((tab) => tab.key === activeTab);
   return (
     <section className="w-full py-12 md:py-16 lg:py-20 bg-second-bg">
-      <div className="max-w-3xl mx-auto px-4">
+      <div className="w-full max-w-7xl mx-auto px-4">
         <div className="bg-white rounded-2xl p-2 flex items-center justify-between overflow-x-auto no-scrollbar">
           {tabs.map((tab) => (
             <button

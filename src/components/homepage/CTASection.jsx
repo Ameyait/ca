@@ -13,15 +13,28 @@ export default function CTASection({
 
                 <div className="text-center max-w-2xl mx-auto">
 
-                    {/* Title */}
-                    <Text variant="h2" as="h2" className="text-white font-[500]">
-                        {title}
-                    </Text>
+                    <div className="space-y-4">
 
-                    {/* Subtitle */}
-                    <Text className="mt-4 text-white/90">
-                        {subtitle}
-                    </Text>
+                        {/* Small Tag */}
+                        <p className="text-white/70 uppercase tracking-[0.25em] text-xs font-medium">
+                            PROFESSIONAL CA SERVICES
+                        </p>
+
+                        {/* Title */}
+                        <Text
+                            variant="h2"
+                            as="h2"
+                            className="text-white font-semibold leading-tight"
+                        >
+                            {title}
+                        </Text>
+
+                        {/* Subtitle */}
+                        <Text className="text-white/80 max-w-xl mx-auto leading-7 text-[15px]">
+                            {subtitle}
+                        </Text>
+
+                    </div>
 
                     {/* Buttons */}
                     <div className="flex flex-wrap justify-center gap-4 mt-8">

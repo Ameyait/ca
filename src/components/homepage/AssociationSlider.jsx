@@ -6,13 +6,13 @@ export default function AssociationSlider() {
     const scrollRef = useRef(null);
 
     const items = [
-        "Genius Tax Software",
-        "Speqta GST",
-        "Quick2Tally",
-        "Zoho Books",
+        "TallyPrime",
         "ClearTax",
-        "Tally",
-        "Busy Software",
+        "Saral GST",
+        "GSTHero",
+        "Gen GST",
+        "Zoho Books",
+        "Busy Accounting",
     ];
 
     // Auto scroll
@@ -38,7 +38,7 @@ export default function AssociationSlider() {
 
             {/* Heading */}
             <Text variant="h2" as="h2">
-                We Have Good Association
+                Our Trusted Business Partners
             </Text>
             <div
                 ref={scrollRef}

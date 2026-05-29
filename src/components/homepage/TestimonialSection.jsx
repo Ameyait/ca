@@ -20,7 +20,7 @@ export default function TestimonialSection({ data }) {
     <section className="w-full bg-testimonial-bg py-20">
       <Container>
 
-        <SectionHeader title="What Our Clients Say" />
+        <SectionHeader title="Client's Feedback" />
 
         {/* Card */}
         <TestimonialCard {...data[index]} />

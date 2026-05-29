@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <CTASection
-          title="Talk to a CA Expert Today"
-          subtitle="Get personalized financial advice and compliance support from our experienced team."
+          title="Connect With Our CA Team"
+          subtitle="Professional support for taxation, compliance, registration, and financial services."
         />
         <Footer />
       </body>

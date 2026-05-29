@@ -4,8 +4,8 @@ export default function WhyChooseUsSection({ data }) {
         <section className="w-full bg-second-bg py-16">
             <Container>
                 <SectionHeader
-                    title="Why Choose Us"
-                    subtitle="Trusted by 500+ businesses across Hyderabad for reliable financial services."
+                    title="Our Commitment"
+                    subtitle="Serving 500+ businesses with reliable accounting, taxation, and compliance solutions."
                 />
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                     {data.map((item, index) => (

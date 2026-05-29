@@ -13,12 +13,12 @@ export default function HeroSection() {
           {/* LEFT */}
           <div className="flex flex-col gap-6">
             <Text variant="h1" as="h1">
-              Your Tax Problems <br />
-              Solved — Fast & Easy
+              Reliable Tax Solutions <br />
+              For Businesses & Individuals
             </Text>
 
             <Text as="span" variant="span">
-              GST | Income Tax | Audit | Company Registration in Hyderabad
+              GST Filing | Income Tax | Audit Services | Business Registration
             </Text>
 
             <div className="flex gap-4 flex-wrap">
@@ -50,9 +50,9 @@ export default function HeroSection() {
 
         {/* Bottom badges */}
         <div className="flex  justify-center gap-4 mt-20 lg:w-[66%] m-auto">
-          <Button variant="yellow">👥 500+ Happy Clients</Button>
+          <Button variant="yellow">👥 Trusted by 500+ Businesses</Button>
           <Button variant="yellow">🏆 25+ Years Experience</Button>
-          <Button variant="yellow">⭐ 4.9★ Google Rating</Button>
+          <Button variant="yellow">⭐ 4.9 Highly Rated Client Service</Button>
         </div>
 
       </div>

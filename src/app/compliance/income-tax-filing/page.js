@@ -6,14 +6,16 @@ export default function IncomeTaxFiling() {
         <>
             <section >
                 <ServiceHero
-                    title="Income Tax Filing"
+                    title="Income Tax Return"
                     subtitle="Private Limited, OPC, LLP — get your business registered hassle-free."
                     price="₹6,999"
                     features={[
-                        "End-to-end registration support",
-                        "DSC & DIN included",
-                        "MOA & AOA drafting",
-                        "PAN & TAN application",
+                        "Best Price Guaranteed",
+                        "Free Expert Assistance",
+                        "Complete Online Process",
+                        "Tax Calculation based on inputs received",
+                        "Assistance for Tax Payment or refund filing",
+                        "Share ITR Filed copy and Acknowledgement"
                     ]}
                 />
                 <TabsSection tabs={TABSDATA} />
