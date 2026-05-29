@@ -31,15 +31,15 @@ export default function HeroSection() {
           <div className="flex flex-col gap-6 w-full max-w-md mx-auto lg:ml-auto">
             <EnquiryForm title="Get Free Consultation" />
             {/* Image */}
-            <div className="w-full rounded-xl overflow-hidden shadow-lg">
+            {/* <div className="w-full rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/images/consulting.jpg"
+                src="/consulting.png"
                 alt="Consulting"
                 width={500}
                 height={300}
                 className="w-full h-full object-cover"
               />
-            </div>
+            </div> */}
 
             {/* Enquiry Form */}
 
