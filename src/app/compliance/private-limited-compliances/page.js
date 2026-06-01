@@ -8,7 +8,7 @@ export default function IncomeTaxFiling() {
                 <ServiceHero
                     title="Private Limited Compliances"
                     subtitle="Private Limited, OPC, LLP — get your business registered hassle-free."
-                    price="₹7,999"
+                    price="₹6,999"
                     features={[
                         "Best Price Guaranteed",
                         "Free Expert Assistance",

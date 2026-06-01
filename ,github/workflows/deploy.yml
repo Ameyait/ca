@@ -1,0 +1,37 @@
+name: Deploy Website Static to S3
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+ 
+    steps:
+ 
+      - name: Checkout Code
+        uses: actions/checkout@v4
+ 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+ 
+      - name: Install Dependencies
+        run: npm install
+ 
+      - name: Build Project
+        run: npm run build
+ 
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.CA_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.CA_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.CA_AWS_REGION }}
+ 
+      - name: Upload Static Files to S3
+        run: |
+          aws s3 sync out/ s3://${{ secrets.CA_S3_BUCKET }} --delete

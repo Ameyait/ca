@@ -8,7 +8,7 @@ export default function Home() {
                 <ServiceHero
                     title="Private Limited Company Registration"
                     subtitle="Private Limited, OPC, LLP — get your business registered hassle-free."
-                    price="₹6,999"
+                    price="₹7,999"
                     features={[
                         "Business registration support",
                         "Professional documentation",
